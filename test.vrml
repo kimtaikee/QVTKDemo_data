@@ -1,0 +1,256 @@
+#VRML V2.0 utf8
+DEF grass Transform {
+  translation 0 0 0
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.5882 0.5882 0.5882
+          ambientIntensity 1.0
+          specularColor 0 0 0
+          shininess 0.145
+          transparency 0
+        }
+        texture ImageTexture {
+          url "grass.jpg"
+        }
+      }
+      geometry IndexedFaceSet {
+        ccw TRUE
+        solid TRUE
+        coord Coordinate { point [
+          -138 0 136.6, 138 0 136.6, -138 0 -136.6, 138 0 -136.6, 
+          -138 -2.867 136.6, 138 -2.867 136.6, -138 -2.867 -136.6, 
+          138 -2.867 -136.6]
+        }
+        normal Normal { vector [
+          1 0 0, -1 0 0, 0 1 0, 0 0 1, 0 -1 0, 0 0 -1, ] }
+        normalPerVertex TRUE
+        texCoord TextureCoordinate { point [
+          0 0, 1 0, 0 1, 1 1, 0 0, 1 0, 0 1, 1 1, 0 0, 1 0, 0 1, 
+          1 1]
+        }
+        coordIndex [
+          2, 0, 3, -1, 1, 3, 0, -1, 5, 4, 7, -1, 6, 7, 4, -1, 1, 0, 5, -1, 
+          4, 5, 0, -1, 3, 1, 7, -1, 5, 7, 1, -1, 2, 3, 6, -1, 
+          7, 6, 3, -1, 0, 2, 4, -1, 6, 4, 2, -1]
+        texCoordIndex [
+          10, 8, 11, -1, 9, 11, 8, -1, 8, 9, 10, -1, 11, 10, 9, -1, 
+          5, 4, 7, -1, 6, 7, 4, -1, 1, 0, 3, -1, 2, 3, 0, -1, 
+          5, 4, 7, -1, 6, 7, 4, -1, 1, 0, 3, -1, 2, 3, 0, -1]
+        normalIndex [
+          2, 2, 2, -1, 2, 2, 2, -1, 4, 4, 4, -1, 4, 4, 4, -1, 3, 
+          3, 3, -1, 3, 3, 3, -1, 0, 0, 0, -1, 0, 0, 0, -1, 5, 
+          5, 5, -1, 5, 5, 5, -1, 1, 1, 1, -1, 1, 1, 1, -1, ]
+        }
+    }
+  ]
+}
+DEF Box02 Transform {
+  translation -132.3 0 0
+  children [
+      Transform {
+        translation 0 9.319 0
+        children [
+          Shape {
+            appearance Appearance {
+              material Material {
+                diffuseColor 0.1059 0.6941 0.5804
+              }
+            }
+            geometry Box { size 1.434 18.64 258.8 }
+          }
+    ] }
+  ]
+}
+DEF Box03 Transform {
+  translation 131.1 0 0
+  children [
+      Transform {
+        translation 0 9.319 0
+        children [
+          Shape {
+            appearance Appearance {
+              material Material {
+                diffuseColor 0.1059 0.6941 0.5804
+              }
+            }
+            geometry Box { size 1.434 18.64 258.8 }
+          }
+    ] }
+  ]
+}
+DEF Box04 Transform {
+  translation -0.5894 0 -131.7
+  rotation 0 -1 0 -1.571
+  children [
+      Transform {
+        translation 0 9.319 0
+        children [
+          Shape {
+            appearance Appearance {
+              material Material {
+                diffuseColor 0.1059 0.6941 0.5804
+              }
+            }
+            geometry Box { size 1.434 18.64 258.8 }
+          }
+    ] }
+  ]
+}
+DEF Box05 Transform {
+  translation -0.5894 0 131.7
+  rotation 0 -1 0 -1.571
+  children [
+      Transform {
+        translation 0 9.319 0
+        children [
+          Shape {
+            appearance Appearance {
+              material Material {
+                diffuseColor 0.1059 0.6941 0.5804
+              }
+            }
+            geometry Box { size 1.434 18.64 258.8 }
+          }
+    ] }
+  ]
+}
+DEF Box06 Transform {
+  translation -46.93 0 -111.8
+  children [
+      Transform {
+        translation 0 21.51 0
+        children [
+          Shape {
+            appearance Appearance {
+              material Material {
+                diffuseColor 0.898 0.6039 0.8431
+              }
+            }
+            geometry Box { size 136.9 43.01 2.151 }
+          }
+    ] }
+  ]
+}
+DEF Box07 Transform {
+  translation -92.25 0 40.06
+  children [
+      Transform {
+        translation 0 21.51 0
+        children [
+          Shape {
+            appearance Appearance {
+              material Material {
+                diffuseColor 0.898 0.6039 0.8431
+              }
+            }
+            geometry Box { size 44.76 43.01 2.151 }
+          }
+    ] }
+  ]
+}
+DEF Box08 Transform {
+  translation -115.7 0 -36.09
+  rotation 0 1 0 -1.571
+  children [
+      Transform {
+        translation 0 21.51 0
+        children [
+          Shape {
+            appearance Appearance {
+              material Material {
+                diffuseColor 0.898 0.6039 0.8431
+              }
+            }
+            geometry Box { size 157.8 43.01 2.151 }
+          }
+    ] }
+  ]
+}
+DEF Box09 Transform {
+  translation 21.87 0 -36.98
+  rotation 0 1 0 -1.571
+  children [
+      Transform {
+        translation 0 21.51 0
+        children [
+          Shape {
+            appearance Appearance {
+              material Material {
+                diffuseColor 0.898 0.6039 0.8431
+              }
+            }
+            geometry Box { size 157.8 43.01 2.151 }
+          }
+    ] }
+  ]
+}
+DEF Box10 Transform {
+  translation -47.99 41.59 -38.3
+  children [
+      Transform {
+        translation 0 1.254 0
+        children [
+          Shape {
+            appearance Appearance {
+              material Material {
+                diffuseColor 0.6 0.8941 0.8392
+              }
+            }
+            geometry Box { size 195.7 2.509 188.8 }
+          }
+    ] }
+  ]
+}
+DEF door Transform {
+  translation -55.64 0 40.06
+  children [
+  DEF door-TIMER TimeSensor { loop FALSE cycleInterval 3.333 },
+  DEF door-POS-INTERP PositionInterpolator {
+    key [0, 0.03, 0.06, 0.09, 0.12, 0.9, 0.93, 0.96, 0.99, 1, ]
+    keyValue [-55.64 0 40.06, -54.95 0 35.77, -49.82 0 28.9, -43.77 0 26.56, 
+      -43.21 0 26.5, -43.21 0 26.5, -47.42 0 27.56, -53.82 0 33.27, 
+      -55.63 0 39.49, -55.64 0 40.06, ] },
+  DEF door-ROT-INTERP OrientationInterpolator {
+    key [0, 0.03, 0.06, 0.09, 0.12, 0.9, 0.93, 0.96, 0.99, 1, ]
+    keyValue [1 0 0 0, 0 1 0 -0.3204, 0 1 0 -0.9613, 0 1 0 -1.442, 
+      0 1 0 -1.484, 0 1 0 -1.484, 0 1 0 -1.163, 0 1 0 -0.5222, 
+      0 1 0 -0.04154, 1 0 0 0, ] },
+      Transform {
+        translation 0 21.51 0
+        children [
+          Shape {
+            appearance Appearance {
+              material Material {
+                diffuseColor 0.6941 0.3451 0.1059
+              }
+            }
+            geometry Box { size 27.3 43.01 2.151 }
+          }
+    ] }
+DEF opendoor-SENSOR TouchSensor { enabled TRUE }
+  ]
+ROUTE door-TIMER.fraction_changed TO door-POS-INTERP.set_fraction
+ROUTE door-POS-INTERP.value_changed TO door.set_translation
+ROUTE door-TIMER.fraction_changed TO door-ROT-INTERP.set_fraction
+ROUTE door-ROT-INTERP.value_changed TO door.set_rotation
+}
+DEF Box11 Transform {
+  translation -9.923 0 40.06
+  children [
+      Transform {
+        translation 0 21.51 0
+        children [
+          Shape {
+            appearance Appearance {
+              material Material {
+                diffuseColor 0.898 0.6039 0.8431
+              }
+            }
+            geometry Box { size 66.09 43.01 2.151 }
+          }
+    ] }
+  ]
+}
+ROUTE opendoor-SENSOR.touchTime TO door-TIMER.startTime

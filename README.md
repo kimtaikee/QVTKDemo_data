@@ -1,2 +1,3 @@
 # QVTKDemo_data
-QVTKDemo's model files 
+
+Finite element files and model files collected from the internet, feel free to use.
